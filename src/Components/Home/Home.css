@@ -1,0 +1,271 @@
+
+
+/* ******************home******************** */
+
+.herosection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.hero {
+    background-color: #F3F4FF;
+    width: 1100px;
+    height: 2310px;
+}
+
+.heading h1 {
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 54px;
+    color: #303972;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8px;
+    padding: 15px 25px;
+}
+
+.list {
+    /* width: 1080px; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 50px 0px;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.list2 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list2 p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #A098AE;
+
+}
+
+.list2 span {
+    color:  #303972;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.graph{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+padding: 100px 0px;
+}
+
+.graph1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 10px;
+    height: 10px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    position: relative;
+    bottom: 9px;
+}
+.box3{
+    width: 10px;
+    height: 10px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    position: relative;
+    bottom: 9px;
+}
+
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+
+
+
+.calendar {
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+.calender h1{
+    color: #303972;
+}
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
+.month .prev, .month .next {
+    cursor: pointer;
+    font-size: 1.5em;
+    user-select: none;
+}
+
+.date h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.weekdays, .days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.weekdays div, .days div {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.weekdays {
+    background-color: #f4f4f4;
+}
+
+.days div {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.days div:hover {
+    border-radius: 50%;
+    background-color: #e4e4e4;
+}
+
+
+
+
+/* *******************chart**************** */
+
+
+.chart {
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* ************************table********************* */
+
+.table{
+    width: 900px;
+    background-color: white;
+  text-align: center;
+  margin-left: 25px;
+}
+.table .heading h1{
+    text-align: start;
+}
+.tables{
+    width: 900px; 
+}
+.tables tr{
+    width: 900px;
+}
+.user td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #303972;
+    gap: 10px;
+}
+ td{
+    color: #303972;
+}
+.user1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 10px;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle2 p{
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+}
+
+.circle2 .box1{
+    width: 40px;
+    height: 40px;
+    background-color: #303972;
+    text-align: center;
+    border-radius: 50%;
+}

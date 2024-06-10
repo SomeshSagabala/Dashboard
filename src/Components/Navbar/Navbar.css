@@ -1,0 +1,175 @@
+/* **************leftnavbar************** */
+
+.leftnavbar {
+    width: 270px;
+    height: 2410px;
+    background-color: #4D44B5;
+    color: white;
+}
+.leftnavbar h1{
+    text-align: center;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pages1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    cursor: pointer;
+}
+
+.pages1 p {
+    width: 100px;
+    text-align: center;
+}
+
+.bottom {
+    margin: 50px 0;
+}
+
+.bottom h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pages a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  *************** rightnavbar************* */
+
+.rightnavbar {
+    width: 360px;
+    height: 2310px;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* .icons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+} */
+
+.icons1 h2 {
+    font-size: 18px;
+    color: #303972;
+}
+
+.icons1 p {
+    font-size: 15px;
+    color: #A098AE;
+}
+
+.box1 {
+    width: 50px;
+    height: 50px;
+    background-color: #A098AE;
+    border-radius: 50%;
+}
+
+
+.student {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.student1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.student1 h3 {
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 36px;
+    color: #303972;
+}
+
+.student1 p {
+    color: #A098AE;
+    font-size: 15px;
+}
+.students1{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* padding: 0 20px;  */
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #A098AE;
+}
+
+.button button{
+    font-size: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: #A098AE;
+    color: #303972;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+.messages h1{
+    text-align: start;
+    font-size: 30px;
+    color: #303972;
+    padding: 0 20px;
+}
+
+
+
+
+.foodmenu h1{
+    text-align: start;
+    font-size: 30px;
+    color: #303972;
+    padding: 0 20px;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.box2{
+    width: 300px;
+    height: 120px;
+    background-color: #A098AE;
+    border-radius: 20px;
+}

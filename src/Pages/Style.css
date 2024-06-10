@@ -1,0 +1,199 @@
+
+
+
+.Student{
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.Student1{
+    width: 20%;
+}
+
+.Student1 p{
+    color: white    ;
+}
+.Student1 h3{
+    color: white;
+}
+.Student2{
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+}
+
+.Student21{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+
+
+
+
+.Student22{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px 0 ; */
+}
+
+
+.search input {
+    border: none;
+    outline: none;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8px;
+    padding: 10px 25px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.buttons .button1 button{
+ text-align: center;
+ border: 2px solid rgba(77, 68, 181, 1);
+ border-radius: 20px;
+ padding: 8px 25px;
+ font-size: 16px;
+ cursor: pointer;
+}
+.buttons .button2 button{
+    text-align: center;
+    background-color:rgba(77, 68, 181, 1) ;
+    border-radius: 20px;
+    padding: 8px 25px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: none;
+   }
+
+
+
+
+   .Student23{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 ;
+}
+
+.Student23 table{
+    width: 100%;
+
+}
+
+.Student23 table td, tr{
+    color: rgba(77, 68, 181, 1);
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***********************Teacher******************** */
+
+
+.teacher{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(243, 237, 237);
+}
+.teacher1{
+    width: 20%;
+}
+.teacher2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+
+
+
+
+.box5{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #A098AE;
+}
+
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px;
+}
+.card h2{
+    font-size: 18px;
+    color: rgba(77, 68, 181, 1);;
+    text-align: center;
+}
+
+.card p{
+    font-size: 16px;
+    color: #A098AE;
+}
+.icon{
+   display: flex;
+   gap: 20px;
+} 
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.card {
+    width: 220px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.5em;
+}
